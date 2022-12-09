@@ -1,0 +1,170 @@
+
+/* * {
+    overflow: auto;
+} */
+
+body {
+    background-color: #c4990a;
+    font-family: Arial
+}
+
+p.category{
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 200px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    padding: 10px 22px;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.center{
+    text-align: center;
+    width: 100%;
+}
+
+div.content{
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;
+    min-width: 450px;
+    box-shadow: 0px 0px 4px 8px rgba(0,0,0,0.3);
+    overflow: visible
+}
+
+div.category{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+div.separator{
+    background-color: black;
+    width: 100px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+p.description{
+    text-align: center;
+    font-size: 14px;
+    max-width: 400px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+div.description{
+    text-align: center;
+}
+
+div.info{
+    position:relative; 
+    background-color: gray
+    
+}
+
+table.info{
+    position:absolute; 
+    bottom:0; 
+    width:100%; 
+    color:white; 
+    background-color: #6c8296C0; 
+    height:80px
+}
+
+table.info td {
+    text-align: center;
+    size: 14px;
+    vertical-align: top
+}
+
+table.info th {
+    text-align: center;
+    size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 6px
+}
+
+img.info{
+    display: block;
+    background-color: lightgray;
+    max-height: 300px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+div.col{
+    width:45%;
+    margin-top: 10px;
+    overflow:auto
+}
+
+div.col h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C8290;
+    padding-bottom: 5px;
+}
+
+div.col1{
+    display: inline-block;
+    margin-right: 5% ;
+}
+
+div.ingredients p{
+    text-align: center;
+    font-size:16px;
+    border: 1px solid #6C8290;
+    height: 30px;
+    padding-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+table.instructions p.number {
+    background-color: #6C8290;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px;
+
+}
+
+table.instructions td.steps{
+    font-size: 16px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+table.instructions td{
+    vertical-align: top;
+}
+
+table.instructions tr{
+    height: 50px;
+}
+
+div.col2{
+    float:right;
+    margin-left: 5%
+}
+
+div.overflow{
+    overflow:auto;
+}
